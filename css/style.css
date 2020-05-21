@@ -1,0 +1,73 @@
+body{
+    background-color: #d3d3d3;
+}
+
+img {
+   max-height: 200px;
+   max-width: 200px;
+}
+
+.bgCol{
+    color: deeppink;
+    background-color: lavenderblush;
+}
+
+#loadMessage{
+    width: 100%;
+    margin-top: 10%;
+    font-size: 50px;
+    color: deeppink;
+    display: flex;
+    justify-content: center;
+}
+
+.loadMessageGif{
+    background-image: url(/images/745.gif);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 40%;
+    margin-left: 40%;
+    height: 100%;
+    width: 100%;
+    z-index: 9999999;
+}
+
+#loadMessage2{
+    background-image: url(/images/771.gif);
+    background-repeat: no-repeat;
+    position: absolute;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    margin-left: 45%;
+}
+
+#siteTitle{
+    font-family: fantasy;
+}
+
+#book-list{
+    font-family: cursive;
+    width: 500px;
+    cursor: pointer;
+}
+
+.list-group-flush{
+    background-color: lavenderblush;
+    width: 550px;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lavenderblush;
+    color: deeppink;
+}
+
+#bookTitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+}
